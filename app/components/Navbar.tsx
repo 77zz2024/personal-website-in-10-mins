@@ -67,8 +67,7 @@ export function Navbar() {
             to={`/${pageName}`}
             key={index}
             className={
-              location.pathname.includes(pageName) ||
-              (location.pathname === "/" && pageName === "about")
+              location.pathname.includes(pageName)
                 ? "text-gray-500 underline underline-offset-4"
                 : "text-black"
             }
