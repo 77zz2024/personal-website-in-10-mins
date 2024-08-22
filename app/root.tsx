@@ -9,6 +9,7 @@ import { Navbar } from "./components/Navbar";
 import stylesheet from "~/tailwind.css?url";
 import { LinksFunction } from "@remix-run/node";
 import configs from "./configs/configs";
+import About from "./routes/about";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
@@ -50,7 +51,7 @@ export default function App() {
 export function HydrateFallback() {
   return (
     <div className="w-full flex items-center">
-      <h1>Loading...</h1>
+      <About />
     </div>
   );
 }

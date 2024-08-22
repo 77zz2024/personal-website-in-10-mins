@@ -1,12 +1,6 @@
 import { Icon } from "leaflet";
 import { useEffect, useState } from "react";
-import {
-  MapContainer,
-  TileLayer,
-  Marker,
-  Popup,
-  useMapEvents,
-} from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "~/styles/FootPrintMap.css";
 
 export interface FootPrintData {
@@ -100,7 +94,10 @@ const FootPrintMap: React.FC<FootPrintMapProps> = ({
       </MapContainer>
       {selectedMarker && (
         <div className="full-screen-image-wrapper" onClick={closeImage}>
-          <img src={selectedMarker.image} alt={selectedMarker.image} />
+          <img
+            src={`pictures/footprints/${selectedMarker.image}`}
+            alt={selectedMarker.image}
+          />
         </div>
       )}
     </>

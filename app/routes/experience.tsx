@@ -14,7 +14,6 @@ export const meta: MetaFunction = () => {
       content: `personal, website, about, profile, ${configs.name}, education, work experience`,
     },
     { name: "author", content: configs.name },
-    { name: "robots", content: "index, follow" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
   ];
 };

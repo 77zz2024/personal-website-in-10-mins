@@ -2,9 +2,9 @@ import configs from "~/configs/configs";
 
 type ExperienceCardProps = {
   title: string;
+  content: string;
   date?: string;
   location?: string;
-  content: string;
 };
 
 export default function ExperienceCard(props: ExperienceCardProps) {

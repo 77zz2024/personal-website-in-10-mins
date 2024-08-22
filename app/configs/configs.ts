@@ -13,30 +13,42 @@ const configs: Configs = {
       email: "gabumon@gmail.com",
       facebook: "",
       x: "",
-      github: "https://github.com/",
+      github: "https://github.com/player-eric/personal-website-in-10-mins",
       instagram: "https://www.instagram.com/",
       linkedin: "https://www.linkedin.com/",
     },
   },
   aboutPage: {
-    greeting: "Hi!",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum lacus sit amet rhoncus fringilla. Duis vestibulum non leo eget blandit. Cras vel erat volutpat, bibendum ex facilisis, gravida sem. Vivamus commodo lobortis enim iaculis blandit. Vestibulum laoreet quam id sodales rhoncus. In vulputate purus in tincidunt scelerisque. Nullam congue dui nisi, sed ornare leo fringilla porttitor. Sed consequat massa nec imperdiet interdum. Fusce cursus dictum dignissim. In ex enim, tristique at luctus ornare, ultricies posuere enim. Duis et augue eget lorem vulputate feugiat. Maecenas id leo in mi hendrerit tincidunt. Donec blandit massa odio, quis elementum ligula iaculis placerat. Vestibulum vitae sodales felis.",
+    greeting: "Hey there",
+    content: `
+      I'm Gabumon, the ever-curious and friendly Digimon from the Digital World.
+      I might look like a fluffy wolf with my trusty blue fur and horn, but don't let that fool
+      you—I've got a heart as warm as my coat and a spirit as strong as my trusty partner.
+      I'm always up for a good adventure or a game of tag, and I'm here to lend a paw whenever you need it.
+      `,
   },
   experiencePage: [
     {
       sectionName: "Education",
       items: [
         {
-          title: "University of Adipiscing",
-          date: "2020-2024",
+          title: "Digital Survival School",
+          date: "2021-2023",
           location: "Earth",
-          content: "Master of tincidunt.",
+          content: `
+          I spent a whole year at Digital Survival School, where I learned the ropes of thriving in the ever-changing Digital World.
+          The lessons ranged from navigating tricky terrains to figuring out how to handle encounters with various Digimon.
+          One of my favorite parts was the teamwork drills—they really helped me understand the importance of working together
+          and supporting my fellow Digimon, which is something I always carry with me on adventures.`,
         },
         {
-          title: "University of Interdum",
-          date: "2019-2024",
-          content: "Bachelor of Nullam",
+          title: "Tamer's Training Program",
+          date: "2020-2020",
+          content: `For six months, I was in the Tamer's Training Program,
+          where I focused on building a strong bond with human Tamers.
+          The program was all about communication—learning how to bridge the gap
+          between Digimon instincts and human expectations. I practiced translating my actions and signals so my Tamer could understand me better.
+          This training made me a more reliable partner, and I'm proud of how it strengthened the trust between us.`,
         },
       ],
     },
@@ -44,9 +56,16 @@ const configs: Configs = {
       sectionName: "Work",
       items: [
         {
-          title: "Placerat.",
-          date: "2021-2022",
-          content: "Nullam porttitor Intern",
+          title: "Digital World Exploration Team - Junior Scout",
+          date: "2024-Present",
+          content: `
+          As a Junior Scout with the Digital World Exploration Team,
+          I had the exciting job of exploring new and uncharted areas.
+          I mapped out unknown regions, took notes on new Digimon I encountered,
+          and reported back with my findings. It was a thrilling experience that put my navigation skills and courage to the test.
+          I loved discovering hidden spots and ensuring my team stayed safe during our explorations.
+          It taught me a lot about resilience and the value of teamwork.
+          `,
         },
       ],
     },
@@ -65,8 +84,8 @@ const configs: Configs = {
       iconFileName: "typescript.svg",
     },
     {
-      name: "Node",
-      iconFileName: "react.svg",
+      name: "SQL",
+      iconFileName: "sql.png",
     },
     {
       name: "Node",
@@ -82,9 +101,6 @@ const configs: Configs = {
       name: "GraphQL",
     },
     {
-      name: "SQL",
-    },
-    {
       name: "Docker",
     },
     {
@@ -93,26 +109,23 @@ const configs: Configs = {
   ],
   projectsPage: [
     {
-      title: "Project Lacus",
+      title: "Mystic Forest Mapping",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum lacus sit amet rhoncus fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum lacus sit amet rhoncus fringilla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum lacus sit amet rhoncus fringilla.",
+        "I led a project to map out the Mystic Forest, a dense and mysterious area filled with hidden paths and rare Digimon. My team and I created detailed maps and documented new discoveries, which helped future explorers navigate the forest safely. It was a challenging but rewarding experience, and I felt proud to contribute to expanding our knowledge of the Digital World.",
       link: "https://digimon.fandom.com/wiki/Digimon",
       pictureFileName: "project-1.jpg",
-      skills: "React, TypeScript",
+      skills: "Mapping, Navigation, Teamwork",
     },
     {
-      title: "Project Rhoncus",
+      title: "Tamer Communication Enhancement",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum lacus sit amet rhoncus fringilla.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum lacus sit amet rhoncus fringilla.",
-      link: "https://digimon.fandom.com/wiki/Digimon",
-      skills: "C++",
+        "I worked on a project to improve how Digimon and Tamers communicate during battles. I tested different signals and gestures to see which ones were most effective for quick and clear communication. The feedback helped refine our strategies and made our teamwork during battles smoother and more intuitive. It was great to see how our efforts made a real difference in the field.",
+      skills: "Communication Strategy",
     },
     {
-      title: "Project Interdum",
+      title: "Digital Harmony Festival",
       description:
-        "us adipiscing elit. Sed interdum lacus sit amet rhoncus sit amet rhoncus fringilla.Lorem ipsum dolor sit amet, consectetur fringilla.",
-      link: "https://digimon.fandom.com/wiki/Digimon",
-      skills: "C++",
+        "I helped organize the Digital Harmony Festival, an event celebrating the diverse cultures of Digimon from all over the Digital World. My role involved coordinating with different Digimon groups, setting up booths, and ensuring everyone had a great time. It was amazing to see so many Digimon come together, share their traditions, and build stronger connections within our community.",
     },
   ],
 };
