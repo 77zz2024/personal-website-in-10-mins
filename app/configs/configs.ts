@@ -19,7 +19,7 @@ const configs: Configs = {
     },
   },
   aboutPage: {
-    greeting: "Hi! I'm Zoe Wu",
+    greeting: "Zoe (Ziqin) Wu",
     content: `
       I am a Computer Science and Mathematic Finance graduate, seeking full time 0-3 years software engineer roles.
       `,
