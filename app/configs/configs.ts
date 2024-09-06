@@ -33,13 +33,13 @@ const configs: Configs = {
         {
           title: "Georgia Institute of Technology",
           Major: 'Computer Science',
-          date: "2023-2025",
+          date: "2023 - 2025",
           location: "Atlanta, GA",
           content: ["master's degree in Computer Science."],
         },
         {
           title: "Washington University in Saint Louis",
-          date: "2019-2021",
+          date: "2019 - 2021",
           location: "Saint Louis, MO",
           content: ["master's degree in Mathematic Finance."],
         },
