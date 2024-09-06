@@ -29,23 +29,17 @@ const configs: Configs = {
       sectionName: "Education",
       items: [
         {
-          title: "Digital Survival School",
-          date: "2021-2023",
-          location: "Earth",
+          title: "Georgia Institute of Technology",
+          date: "2023-2025",
+          location: "Atlanta, GA",
           content: `
-          I spent a whole year at Digital Survival School, where I learned the ropes of thriving in the ever-changing Digital World.
-          The lessons ranged from navigating tricky terrains to figuring out how to handle encounters with various Digimon.
-          One of my favorite parts was the teamwork drills—they really helped me understand the importance of working together
-          and supporting my fellow Digimon, which is something I always carry with me on adventures.`,
+          I am currently pursuing my second master's degree in Computer Science at Georgia Tech. 
+          `,
         },
         {
-          title: "Tamer's Training Program",
-          date: "2020-2020",
-          content: `For six months, I was in the Tamer's Training Program,
-          where I focused on building a strong bond with human Tamers.
-          The program was all about communication—learning how to bridge the gap
-          between Digimon instincts and human expectations. I practiced translating my actions and signals so my Tamer could understand me better.
-          This training made me a more reliable partner, and I'm proud of how it strengthened the trust between us.`,
+          title: "Washington University in Saint Louis",
+          date: "2019-2021",
+          content: `I got my first master's degree from Washington University in Saint Louis in Mathematic Finance.`,
         },
       ],
     },
@@ -53,15 +47,19 @@ const configs: Configs = {
       sectionName: "Work",
       items: [
         {
-          title: "Digital World Exploration Team - Junior Scout",
-          date: "2024-Present",
+          title: "Lead Data Science Analyst",
+          date: "2021-Present",
           content: `
-          As a Junior Scout with the Digital World Exploration Team,
-          I had the exciting job of exploring new and uncharted areas.
-          I mapped out unknown regions, took notes on new Digimon I encountered,
-          and reported back with my findings. It was a thrilling experience that put my navigation skills and courage to the test.
-          I loved discovering hidden spots and ensuring my team stayed safe during our explorations.
-          It taught me a lot about resilience and the value of teamwork.
+            •	Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%
+            •	Followed multiple design patterns (Factory, Decorator, Iterator) for code readability, modularity, and maintainability
+            •	Conducted automated Unit/End to End tests with treasury team using Pytest and Mock, achieving 90% code coverage
+            •	Connected to a highly scalable, secure, and efficient Snowflake cloud database to store the data of the application
+            •	Built 10+ Tableau dashboards to visualize the planning metrics in real-time for management review and decision-making
+            •	Worked with the BT team to deploy the applications on the AWS Air9 platform (EC2), improving scalability and efficiency
+            •	Optimized the queries (SQL) behind the dashboards to slash the query time by 50% and reduce customer complaints; consistently ranked 1st in dashboard views (5000+ monthly)
+            •	Collaborated in an Agile team as a scrum master; utilized GitHub/Git for version control and repositories management
+            •	Won the North Star Award once, and was nominated for the President’s Award each year among the whole company
+
           `,
         },
       ],
