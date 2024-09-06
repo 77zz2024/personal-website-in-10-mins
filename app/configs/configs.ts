@@ -30,6 +30,7 @@ const configs: Configs = {
       items: [
         {
           title: "Georgia Institute of Technology",
+          Major: 'Computer Science',
           date: "2023-2025",
           location: "Atlanta, GA",
           content: `
@@ -39,6 +40,7 @@ const configs: Configs = {
         {
           title: "Washington University in Saint Louis",
           date: "2019-2021",
+          location: "Saint Louis, MO",
           content: `I got my first master's degree from Washington University in Saint Louis in Mathematic Finance.`,
         },
       ],
