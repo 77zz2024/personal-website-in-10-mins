@@ -2,7 +2,7 @@ import configs from "~/configs/configs";
 
 type ProjectWithoutPictureProps = {
   title: string;
-  description: string;
+  description: string[];
   link?: string;
   skills?: string;
 };
@@ -28,7 +28,11 @@ export default function ProjectWithPicture(props: ProjectWithoutPictureProps) {
                   {props.title}
                 </h1>
               )}
-              <p className="font-courierPrime text-lg">{props.description}</p>
+              <ul className="font-courierPrime text-lg list-disc ml-6">
+                  {props.description.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
               {props.skills && (
                 <p className="font-blackOpsOne text-lg">{props.skills}</p>
               )}
