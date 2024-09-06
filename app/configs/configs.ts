@@ -114,23 +114,31 @@ const configs: Configs = {
   ],
   projectsPage: [
     {
-      title: "Mystic Forest Mapping",
+      title: "FLASK REST API",
       description:
-        "I led a project to map out the Mystic Forest, a dense and mysterious area filled with hidden paths and rare Digimon. My team and I created detailed maps and documented new discoveries, which helped future explorers navigate the forest safely. It was a challenging but rewarding experience, and I felt proud to contribute to expanding our knowledge of the Digital World.",
-      link: "https://digimon.fandom.com/wiki/Digimon",
-      pictureFileName: "project-1.jpg",
-      skills: "Mapping, Navigation, Teamwork",
+        "• Engineered a scalable and reliable REST API (Flask) for stores management; deployed on Render.com via a Docker container"
+        "• Enabled secure user registration, authentication, and token refresh for a seamless experience via Flask-JWT-Extended"
+        "• Connected to a PostgreSQL backend database; leveraged SQLAlchemy for Object-Relational Mapping (ORM)"
+        "• Used task queues (rq) and background worker for email sending to improve scalability; used Marshmallow for Data Validation"
+        "• Fully tested the API using Postman and automatically generated an interactive API documentation using Swagger",
+      skills: "REST API (Flask), Docker, JWT, PostgreSQL, SQLAlchemy, ORM, task queues (rq), Marshmallow, Postman, Swagger",
     },
     {
-      title: "Tamer Communication Enhancement",
+      title: "MULTITHREADED FILE TRANSFER CLIENT AND SERVER",
       description:
-        "I worked on a project to improve how Digimon and Tamers communicate during battles. I tested different signals and gestures to see which ones were most effective for quick and clear communication. The feedback helped refine our strategies and made our teamwork during battles smoother and more intuitive. It was great to see how our efforts made a real difference in the field.",
-      skills: "Communication Strategy",
+        "• Established a high-performance multithreaded file transfer client-server system in C language using Pthread and TCP socket"
+        "• Implemented the Boss-Worker pattern of multithreading on both the client and server; used mutex to avoid race condition"
+        "• Utilized an AWS EC2 instance (Linux Ubuntu) for developing and testing; used debuggers (Valgrind and GDB) to detect errors",
+      skills: "C, Pthread, TCP Socket, AWS",
     },
     {
-      title: "Digital Harmony Festival",
+      title: "REACT TO-DO LIST APP",
       description:
-        "I helped organize the Digital Harmony Festival, an event celebrating the diverse cultures of Digimon from all over the Digital World. My role involved coordinating with different Digimon groups, setting up booths, and ensuring everyone had a great time. It was amazing to see so many Digimon come together, share their traditions, and build stronger connections within our community.",
+        "• Built a user-friendly React-based to-do list web application, featuring real-time updates and seamless CRUD operations"
+        "• Developed the front-end web pages with React Framework and JavaScript; leveraged CSS and Bootstrap for styling"
+        "• Used Spring Boot to build a backend REST API for the application and connected it to a MongoDB database for persistence"
+        "• Tested the API using Postman; hosted the web application on GitHub and Docker, increasing accessibility to users",
+      skills: "React, JavaScript, CSS, Bootstrap, Spring Boot, MongoDB",
     },
   ],
 };
