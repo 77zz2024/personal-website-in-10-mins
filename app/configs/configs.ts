@@ -90,7 +90,7 @@ const configs: Configs = {
     },
     {
       name: "React",
-      iconFileName: "react.png",
+      iconFileName: "react.svg",
     },
     {
       name: "SQL",
