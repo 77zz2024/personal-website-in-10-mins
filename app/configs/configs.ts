@@ -19,12 +19,9 @@ const configs: Configs = {
     },
   },
   aboutPage: {
-    greeting: "Hey there",
+    greeting: "Hi! I'm Zoe Wu",
     content: `
-      I'm Zoe (Ziqin) Wu, the ever-curious and friendly Digimon from the Digital World.
-      I might look like a fluffy wolf with my trusty blue fur and horn, but don't let that fool
-      you—I've got a heart as warm as my coat and a spirit as strong as my trusty partner.
-      I'm always up for a good adventure or a game of tag, and I'm here to lend a paw whenever you need it.
+      I am a Computer Science and Mathematic Finance graduate, seeking full time 0-3 years software engineer roles.
       `,
   },
   experiencePage: [
