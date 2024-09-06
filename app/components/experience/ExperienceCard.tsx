@@ -2,7 +2,7 @@ import configs from "~/configs/configs";
 
 type ExperienceCardProps = {
   title: string;
-  content: string;
+  content: string[];
   date?: string;
   location?: string;
 };
@@ -20,9 +20,11 @@ export default function ExperienceCard(props: ExperienceCardProps) {
         <p className="font-blackOpsOne text-lg font-normal">
           {props.location} {props.date}
         </p>
-        <p className="font-courierPrime text-lg mx-3 md:my-2">
-          {props.content}
-        </p>
+        <ul className="font-courierPrime text-lg list-disc ml-6">
+          {props.content.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
