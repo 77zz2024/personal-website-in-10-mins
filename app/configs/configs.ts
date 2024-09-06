@@ -82,11 +82,11 @@ const configs: Configs = {
     },
     {
       name: "Java",
-      iconFileName: "remix.svg",
+      iconFileName: "java-original.svg",
     },
     {
       name: "JavaScript",
-      iconFileName: "typescript.svg",
+      iconFileName: "javascript-js.svg",
     },
     {
       name: "React",
