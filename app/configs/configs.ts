@@ -52,7 +52,7 @@ const configs: Configs = {
       sectionName: "Work",
       items: [
         {
-          title: "Lead Data Science Analyst",
+          title: "Lead Data Science Analyst, Discover Financial Services",
           date: "Nov. 2021 – Present",
           content: `
             •	Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%
@@ -67,7 +67,7 @@ const configs: Configs = {
           `,
         },
         {
-          title: "Data Analyst",
+          title: "Data Analyst, Native Pet",
           date: "Aug. 2021 – Nov. 2021",
           content: `
             •	Built a Python tool (MySQL, Matplotlib) to automate the monitoring & reporting process, slashing manual workload by 80%
