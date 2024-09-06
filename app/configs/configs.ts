@@ -48,7 +48,7 @@ const configs: Configs = {
       items: [
         {
           title: "Lead Data Science Analyst",
-          date: "2021-Present",
+          date: "Nov. 2021 – Present",
           content: `
             •	Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%
             •	Followed multiple design patterns (Factory, Decorator, Iterator) for code readability, modularity, and maintainability
@@ -59,7 +59,15 @@ const configs: Configs = {
             •	Optimized the queries (SQL) behind the dashboards to slash the query time by 50% and reduce customer complaints; consistently ranked 1st in dashboard views (5000+ monthly)
             •	Collaborated in an Agile team as a scrum master; utilized GitHub/Git for version control and repositories management
             •	Won the North Star Award once, and was nominated for the President’s Award each year among the whole company
-
+          `,
+        },
+        {
+          title: "Data Analyst",
+          date: "Aug. 2021 – Nov. 2021",
+          content: `
+            •	Built a Python tool (MySQL, Matplotlib) to automate the monitoring & reporting process, slashing manual workload by 80%
+            •	The process included extracting the data from Amazon Seller API, data cleaning, KPI calculating (SQL), and data loading
+            •	Leveraged CSS and Bootstrap to style the company’s website, featuring a streamlined and consistent user experience; achieved a 30% increase in click-through rate and 35% in time on page
           `,
         },
       ],
