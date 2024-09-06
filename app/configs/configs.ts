@@ -77,39 +77,39 @@ const configs: Configs = {
   ],
   skillsPage: [
     {
-      name: "React",
+      name: "Python",
       iconFileName: "react.svg",
     },
     {
-      name: "Remix",
+      name: "Java",
       iconFileName: "remix.svg",
     },
     {
-      name: "TypeScript",
+      name: "JavaScript",
       iconFileName: "typescript.svg",
     },
     {
-      name: "SQL",
+      name: "React",
       iconFileName: "sql.png",
     },
     {
-      name: "Node",
+      name: "Spring Boot",
       iconFileName: "node.png",
     },
     {
-      name: "C++",
+      name: "SQL",
     },
     {
-      name: "Python",
+      name: "C/C++",
     },
     {
-      name: "GraphQL",
+      name: "NoSQL",
     },
     {
       name: "Docker",
     },
     {
-      name: "Kubernetes",
+      name: "RESTful API",
     },
   ],
   projectsPage: [
