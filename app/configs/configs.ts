@@ -52,15 +52,15 @@ const configs: Configs = {
           title: "Lead Data Science Analyst",
           date: "Nov. 2021 – Present",
           content: `
-            •	Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%
-            •	Followed multiple design patterns (Factory, Decorator, Iterator) for code readability, modularity, and maintainability
-            •	Conducted automated Unit/End to End tests with treasury team using Pytest and Mock, achieving 90% code coverage
-            •	Connected to a highly scalable, secure, and efficient Snowflake cloud database to store the data of the application
-            •	Built 10+ Tableau dashboards to visualize the planning metrics in real-time for management review and decision-making
-            •	Worked with the BT team to deploy the applications on the AWS Air9 platform (EC2), improving scalability and efficiency
-            •	Optimized the queries (SQL) behind the dashboards to slash the query time by 50% and reduce customer complaints; consistently ranked 1st in dashboard views (5000+ monthly)
-            •	Collaborated in an Agile team as a scrum master; utilized GitHub/Git for version control and repositories management
-            •	Won the North Star Award once, and was nominated for the President’s Award each year among the whole company
+            •	Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%\n
+            •	Followed multiple design patterns (Factory, Decorator, Iterator) for code readability, modularity, and maintainability\n
+            •	Conducted automated Unit/End to End tests with treasury team using Pytest and Mock, achieving 90% code coverage\n
+            •	Connected to a highly scalable, secure, and efficient Snowflake cloud database to store the data of the application\n
+            •	Built 10+ Tableau dashboards to visualize the planning metrics in real-time for management review and decision-making\n
+            •	Worked with the BT team to deploy the applications on the AWS Air9 platform (EC2), improving scalability and efficiency\n
+            •	Optimized the queries (SQL) behind the dashboards to slash the query time by 50% and reduce customer complaints; consistently ranked 1st in dashboard views (5000+ monthly)\n
+            •	Collaborated in an Agile team as a scrum master; utilized GitHub/Git for version control and repositories management\n
+            •	Won the North Star Award once, and was nominated for the President’s Award each year among the whole company\n
           `,
         },
         {
