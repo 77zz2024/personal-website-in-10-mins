@@ -120,6 +120,7 @@ const configs: Configs = {
       title: "FLASK REST API",
       description:
         "• Engineered a scalable and reliable REST API (Flask) for stores management; deployed on Render.com via a Docker container • Enabled secure user registration, authentication, and token refresh for a seamless experience via Flask-JWT-Extended • Connected to a PostgreSQL backend database; leveraged SQLAlchemy for Object-Relational Mapping (ORM) • Used task queues (rq) and background worker for email sending to improve scalability; used Marshmallow for Data Validation • Fully tested the API using Postman and automatically generated an interactive API documentation using Swagger",
+      description2: "test",
       skills: "REST API (Flask), Docker, JWT, PostgreSQL, SQLAlchemy, ORM, task queues (rq), Marshmallow, Postman, Swagger",
     },
     {
