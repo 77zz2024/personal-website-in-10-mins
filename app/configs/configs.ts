@@ -6,7 +6,7 @@ const configs: Configs = {
   pages: ["about", "experience", "skills", "projects", "footprints"],
   colors: {
     primary: "#FED6DD",
-    background: "#FFE591",
+    background: "#C9D2ED",
   },
   navBar: {
     socialMediaLinks: {
