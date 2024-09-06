@@ -130,13 +130,18 @@ const configs: Configs = {
     {
       title: "MULTITHREADED FILE TRANSFER CLIENT AND SERVER",
       description:
-        "• Established a high-performance multithreaded file transfer client-server system in C language using Pthread and TCP socket • Implemented the Boss-Worker pattern of multithreading on both the client and server; used mutex to avoid race condition • Utilized an AWS EC2 instance (Linux Ubuntu) for developing and testing; used debuggers (Valgrind and GDB) to detect errors",
+        ["• Established a high-performance multithreaded file transfer client-server system in C language using Pthread and TCP socket",
+         "• Implemented the Boss-Worker pattern of multithreading on both the client and server; used mutex to avoid race condition",
+         "• Utilized an AWS EC2 instance (Linux Ubuntu) for developing and testing; used debuggers (Valgrind and GDB) to detect errors",],
       skills: "C, Pthread, TCP Socket, AWS",
     },
     {
       title: "REACT TO-DO LIST APP",
       description:
-        "• Built a user-friendly React-based to-do list web application, featuring real-time updates and seamless CRUD operations • Developed the front-end web pages with React Framework and JavaScript; leveraged CSS and Bootstrap for styling • Used Spring Boot to build a backend REST API for the application and connected it to a MongoDB database for persistence • Tested the API using Postman; hosted the web application on GitHub and Docker, increasing accessibility to users",
+        ["• Built a user-friendly React-based to-do list web application, featuring real-time updates and seamless CRUD operations",
+         "• Developed the front-end web pages with React Framework and JavaScript; leveraged CSS and Bootstrap for styling", 
+         "• Used Spring Boot to build a backend REST API for the application and connected it to a MongoDB database for persistence",
+         "• Tested the API using Postman; hosted the web application on GitHub and Docker, increasing accessibility to users",],
       skills: "React, JavaScript, CSS, Bootstrap, Spring Boot, MongoDB",
     },
   ],
