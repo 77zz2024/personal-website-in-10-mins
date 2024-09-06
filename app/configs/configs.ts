@@ -52,7 +52,7 @@ const configs: Configs = {
           title: "Lead Data Science Analyst",
           date: "Nov. 2021 – Present",
           content: `
-            •	Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%\n
+            <p>•	Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%</p>
             •	Followed multiple design patterns (Factory, Decorator, Iterator) for code readability, modularity, and maintainability\n
             •	Conducted automated Unit/End to End tests with treasury team using Pytest and Mock, achieving 90% code coverage\n
             •	Connected to a highly scalable, secure, and efficient Snowflake cloud database to store the data of the application\n
