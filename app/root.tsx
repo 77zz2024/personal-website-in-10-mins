@@ -13,7 +13,7 @@ import About from "./routes/about";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
-  { rel: "icon", href: "pictures/icon_old.png" },
+  { rel: "icon", href: "pictures/icon.png" },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
