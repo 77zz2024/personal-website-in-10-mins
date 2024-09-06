@@ -3,7 +3,7 @@ import configs from "~/configs/configs";
 type ProjectWithoutPictureProps = {
   title: string;
   description: string;
-  description2?: string;
+  description_b?: string;
   link?: string;
   skills?: string;
 };
@@ -30,7 +30,7 @@ export default function ProjectWithPicture(props: ProjectWithoutPictureProps) {
                 </h1>
               )}
               <p className="font-courierPrime text-lg">{props.description}</p>
-              {props.description2 && (<p className="font-courierPrime text-lg">{props.description2}</p>)}
+              {props.description_b && (<p className="font-courierPrime text-lg">{props.description2}</p>)}
               {props.skills && (
                 <p className="font-blackOpsOne text-lg">{props.skills}</p>
               )}
