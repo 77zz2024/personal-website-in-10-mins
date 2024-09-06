@@ -20,12 +20,11 @@ const configs: Configs = {
   },
   aboutPage: {
     greeting: "Zoe (Ziqin) Wu",
-    content: `
-      •	Master of Science in Computer Science, Georgia Institute of Technology
-      •	Master of Science in Mathematic Finance, Washington University in Saint Louis
-      •	Lead Data Science Analyst at Discover Financial Services
-      •	Seeking full time 0-3 years software engineer roles.
-      `,
+    content: [
+      "Master of Science in Computer Science, Georgia Institute of Technology",
+      "Master of Science in Mathematic Finance, Washington University in Saint Louis",
+      "Lead Data Science Analyst at Discover Financial Services",
+      "Seeking full time 0-3 years software engineer roles",],
   },
   experiencePage: [
     {
