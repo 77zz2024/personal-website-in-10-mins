@@ -36,9 +36,11 @@ export default function About() {
               <h1 className="text-5xl font-blackOpsOne my-6 md:my-1 lg:mb-12">
                 {configs.aboutPage.greeting}
               </h1>
-              <p className="font-courierPrime text-lg mx-6">
-                {configs.aboutPage.content}
-              </p>
+              <ul className="font-courierPrime text-lg list-disc ml-6">
+                  {configs.aboutPage.content.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+               </ul>
             </div>
           </div>
         </div>
