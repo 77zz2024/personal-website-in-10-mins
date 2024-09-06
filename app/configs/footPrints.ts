@@ -12,12 +12,12 @@ export const footPrintsWithPicture: FootPrintData[] = [
     title: "New York City",
   },
     {
-    position: [38.6270, 90.1994],
+    position: [38.6270, -90.1994],
     image: "saint_louis.jpg",
     title: "Saint Louis",
   },
     {
-    position: [41.8781, 87.6298],
+    position: [41.8781, -87.6298],
     image: "chicago.jpg",
     title: "Chicago",
   },
