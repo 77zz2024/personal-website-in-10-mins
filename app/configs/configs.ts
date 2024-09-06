@@ -14,8 +14,8 @@ const configs: Configs = {
       facebook: "",
       x: "",
       github: "https://github.com/player-eric/personal-website-in-10-mins",
-      instagram: "https://www.instagram.com/",
-      linkedin: "https://www.linkedin.com/",
+      instagram: "https://www.instagram.com/whl9656?igsh=MXJyMGR5NjB5emkxcA%3D%3D&utm_source=qr",
+      linkedin: "https://www.linkedin.com/in/zoe-wuziqin/",
     },
   },
   aboutPage: {
