@@ -1,7 +1,7 @@
 import { Configs } from "~/types/configTypes";
 
 const configs: Configs = {
-  name: "Gabumon",
+  name: "Ziqin Wu",
   homePagePictureFileName: "avatar.png",
   pages: ["about", "experience", "skills", "projects", "footprints"],
   colors: {
@@ -10,7 +10,7 @@ const configs: Configs = {
   },
   navBar: {
     socialMediaLinks: {
-      email: "gabumon@gmail.com",
+      email: "zoe19970130@gmail.com",
       facebook: "",
       x: "",
       github: "https://github.com/player-eric/personal-website-in-10-mins",
