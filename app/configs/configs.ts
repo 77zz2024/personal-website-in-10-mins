@@ -34,14 +34,14 @@ const configs: Configs = {
           date: "2023-2025",
           location: "Atlanta, GA",
           content: `
-          I am currently pursuing my second master's degree in Computer Science at Georgia Tech. 
+          master's degree in Computer Science. 
           `,
         },
         {
           title: "Washington University in Saint Louis",
           date: "2019-2021",
           location: "Saint Louis, MO",
-          content: `I got my first master's degree from Washington University in Saint Louis in Mathematic Finance.`,
+          content: `master's degree in Mathematic Finance.`,
         },
       ],
     },
