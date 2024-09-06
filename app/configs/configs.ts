@@ -13,7 +13,7 @@ const configs: Configs = {
       email: "zoe19970130@gmail.com",
       facebook: "",
       x: "",
-      github: "https://github.com/player-eric/personal-website-in-10-mins",
+      github: "https://github.com/",
       instagram: "https://www.instagram.com/whl9656?igsh=MXJyMGR5NjB5emkxcA%3D%3D&utm_source=qr",
       linkedin: "https://www.linkedin.com/in/zoe-wuziqin/",
     },
