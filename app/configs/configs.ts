@@ -78,7 +78,7 @@ const configs: Configs = {
   skillsPage: [
     {
       name: "Python",
-      iconFileName: "react.svg",
+      iconFileName: "python.svg",
     },
     {
       name: "Java",
@@ -90,14 +90,14 @@ const configs: Configs = {
     },
     {
       name: "React",
+      iconFileName: "react.png",
+    },
+    {
+      name: "SQL",
       iconFileName: "sql.png",
     },
     {
       name: "Spring Boot",
-      iconFileName: "node.png",
-    },
-    {
-      name: "SQL",
     },
     {
       name: "C/C++",
