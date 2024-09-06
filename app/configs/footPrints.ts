@@ -2,14 +2,24 @@ import { FootPrintData } from "~/components/FootPrintMap.client";
 
 export const footPrintsWithPicture: FootPrintData[] = [
   {
-    position: [35.6895, 139.6917],
+    position: [22.2700, 113.5767],
     image: "Tokyo.jpg",
-    title: "Tokyo",
+    title: "Zhuhai",
   },
   {
     position: [40.7128, -74.006],
     image: "NewYork.jpg",
     title: "New York City",
+  },
+    {
+    position: [40.7128, -74.006],
+    image: "NewYork.jpg",
+    title: "Saint Louis",
+  },
+    {
+    position: [40.7128, -74.006],
+    image: "NewYork.jpg",
+    title: "Chicago",
   },
 ];
 
