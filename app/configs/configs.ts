@@ -5,7 +5,7 @@ const configs: Configs = {
   homePagePictureFileName: "avatar.png",
   pages: ["about", "experience", "skills", "projects", "footprints"],
   colors: {
-    primary: "#FED6DD",
+    primary: "#FFF9F2",
     background: "#E9E1E8",
   },
   navBar: {
