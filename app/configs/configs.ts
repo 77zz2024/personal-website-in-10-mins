@@ -23,8 +23,8 @@ const configs: Configs = {
     content: [
       "Master of Science in Computer Science, Georgia Institute of Technology",
       "Master of Science in Mathematic Finance, Washington University in Saint Louis",
-      "Lead Data Science Analyst at Discover Financial Services",
-      "Seeking full time 0-3 years software engineer roles",],
+      "Application Engineer at Discover Financial Services",
+      "Seeking mid-level software engineer roles with 3.5 years of experience",],
   },
   experiencePage: [
     {
@@ -52,14 +52,14 @@ const configs: Configs = {
           title: "Lead Data Science Analyst, Discover Financial Services",
           date: "Nov. 2021 – Present",
           content: [
-            "Led the development and maintenance of three Python-based automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%",
-            "Followed multiple design patterns (Factory, Decorator, Iterator) for code readability, modularity, and maintainability",
-            "Conducted automated Unit/End to End tests with treasury team using Pytest and Mock, achieving 90% code coverage",
-            "Connected to a highly scalable, secure, and efficient Snowflake cloud database to store the data of the application",
-            "Built 10+ Tableau dashboards to visualize the planning metrics in real-time for management review and decision-making",
-            "Worked with the BT team to deploy the applications on the AWS Air9 platform (EC2), improving scalability and efficiency",
-            "Optimized the queries (SQL) behind the dashboards to slash the query time by 50% and reduce customer complaints; consistently ranked 1st in dashboard views (5000+ monthly)",
-            "Collaborated in an Agile team as a scrum master; utilized GitHub/Git for version control and repositories management",
+            "Maintained highly scalable and distributed RESTful services (Spring Boot) for an enterprise database (Oracle/DB2) which is the single source of the company-wide business rules/parameters, serving 10k+ QPS",
+            "Leveraged CI/CD (Jenkins) for deployment on AWS; used OCP for pod management and Nexus/SonarQube for code analysis",
+            "Built a Frontend Website (React) for the services and created Datadog dashboards for continuous monitoring",
+            "Developed a ServiceNow automation tool to facilitate the data change process requested by users, cutting 80% of manual effort",
+            "Led the development and maintenance of three Python (Pandas, Numpy, OR-Tools) automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%",
+            "Conducted automated Unit/End to End tests with the treasury team using Pytest and Mock, achieving 90% code coverage",
+            "Optimized the queries (SQL) behind to slash the query time by 50% and reduce customer complaints; consistently ranked 1st in dashboard views (5000+ monthly)",
+            "Collaborated in an Agile team using Jira; utilized GitHub/Git for version control and repositories management",
             "Won the North Star Award once, and was nominated for the President’s Award each year among the whole company",],
         },
         {
@@ -114,29 +114,29 @@ const configs: Configs = {
     {
       title: "FLASK REST API",
       description: [
-          "Engineered a scalable and reliable REST API (Flask) for stores management; deployed on Render.com via a Docker container",
+          "Built a scalable and reliable API (Flask) for store management, using Postman for testing and Swagger for documentation",
           "Enabled secure user registration, authentication, and token refresh for a seamless experience via Flask-JWT-Extended",
           "Connected to a PostgreSQL backend database; leveraged SQLAlchemy for Object-Relational Mapping (ORM)",
           "Used task queues (rq) and background worker for email sending to improve scalability; used Marshmallow for Data Validation",
-          "Fully tested the API using Postman and automatically generated an interactive API documentation using Swagger",
         ],
       skills: "REST API (Flask), Docker, JWT, PostgreSQL, SQLAlchemy, ORM, task queues (rq), Marshmallow, Postman, Swagger",
     },
     {
       title: "MULTITHREADED FILE TRANSFER CLIENT AND SERVER",
       description:
-        ["Established a high-performance multithreaded file transfer client-server system in C language using Pthread and TCP socket",
-         "Implemented the Boss-Worker pattern of multithreading on both the client and server; used mutex to avoid race condition",
-         "Utilized an AWS EC2 instance (Linux Ubuntu) for developing and testing; used debuggers (Valgrind and GDB) to detect errors",],
+        ["Established a high-performance multithreaded file transfer client-server system in C language using Pthread and websocket",
+         "Implemented the Boss-Worker multithreading pattern for concurrency; used mutex/semaphore to avoid race condition",
+         "Added a cache layer to improve the performance, using POSIX shared memory and MQ for Inter-Process Communication",
+         "Utilized an AWS EC2 instance (Linux Ubuntu) for developing and testing; used debuggers (Valgrind and GDB) to detect errors",
+        ],
       skills: "C, Pthread, TCP Socket, AWS",
     },
     {
-      title: "REACT TO-DO LIST APP",
+      title: "GRPC AND DISTRIBUTED SYSTEM",
       description:
-        ["Built a user-friendly React-based to-do list web application, featuring real-time updates and seamless CRUD operations",
-         "Developed the front-end web pages with React Framework and JavaScript; leveraged CSS and Bootstrap for styling", 
-         "Used Spring Boot to build a backend REST API for the application and connected it to a MongoDB database for persistence",
-         "Tested the API using Postman; hosted the web application on GitHub and Docker, increasing accessibility to users",],
+        ["Built a distributed file system supporting high concurrency, which allows multiple clients to communicate with a remote server",
+         "Engineered a series of remote procedure calls using C++ API for gRPC and Protobuf for file transfer between clients and server", 
+         "Used inotify to monitor client-side file changes and synchronized the clients and server via a weakly consistent cache strategy",],
       skills: "React, JavaScript, CSS, Bootstrap, Spring Boot, MongoDB",
     },
   ],
