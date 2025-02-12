@@ -49,7 +49,7 @@ const configs: Configs = {
       sectionName: "Work",
       items: [
         {
-          title: "Lead Data Science Analyst, Discover Financial Services",
+          title: "Application Engineer, Discover Financial Services",
           date: "Nov. 2021 – Present",
           content: [
             "Maintained highly scalable and distributed RESTful services (Spring Boot) for an enterprise database (Oracle/DB2) which is the single source of the company-wide business rules/parameters, serving 10k+ QPS",
@@ -137,7 +137,7 @@ const configs: Configs = {
         ["Built a distributed file system supporting high concurrency, which allows multiple clients to communicate with a remote server",
          "Engineered a series of remote procedure calls using C++ API for gRPC and Protobuf for file transfer between clients and server", 
          "Used inotify to monitor client-side file changes and synchronized the clients and server via a weakly consistent cache strategy",],
-      skills: "React, JavaScript, CSS, Bootstrap, Spring Boot, MongoDB",
+      skills: "C++, Distributed System, gRPC",
     },
   ],
 };
