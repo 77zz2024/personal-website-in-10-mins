@@ -24,7 +24,7 @@ const configs: Configs = {
       "Master of Science in Computer Science, Georgia Institute of Technology",
       "Master of Science in Mathematic Finance, Washington University in Saint Louis",
       "Application Engineer at Discover Financial Services",
-      "Seeking mid-level software engineer roles with 3.5 years of experience",],
+      "Seeking mid-level software engineer roles with 4 years of experience",],
   },
   experiencePage: [
     {
