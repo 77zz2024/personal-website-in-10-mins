@@ -24,7 +24,8 @@ const configs: Configs = {
       "Master of Science in Computer Science, Georgia Institute of Technology",
       "Master of Science in Mathematic Finance, Washington University in Saint Louis",
       "Software Engineer at Splunk",
-      "Seeking software engineer roles with 5 years of experience",],
+      "Seeking software engineer roles with 5 years of experience",
+      "Email: zoe19970130@gmail.com",],
   },
   experiencePage: [
     {
