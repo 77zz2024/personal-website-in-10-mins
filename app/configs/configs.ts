@@ -23,8 +23,8 @@ const configs: Configs = {
     content: [
       "Master of Science in Computer Science, Georgia Institute of Technology",
       "Master of Science in Mathematic Finance, Washington University in Saint Louis",
-      "Application Engineer at Discover Financial Services",
-      "Seeking mid-level software engineer roles with 4 years of experience",],
+      "Software Engineer at Splunk",
+      "Seeking software engineer roles with 5 years of experience",],
   },
   experiencePage: [
     {
@@ -33,7 +33,7 @@ const configs: Configs = {
         {
           title: "Georgia Institute of Technology",
           Major: 'Computer Science',
-          date: "2023 - 2025",
+          date: "2023 - 2026",
           location: "Atlanta, GA, ",
           content: ["master's degree in Computer Science"],
         },
