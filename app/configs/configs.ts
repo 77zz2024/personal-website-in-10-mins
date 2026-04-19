@@ -135,6 +135,18 @@ const configs: Configs = {
     {
       name: "Ansible",
     },
+    {
+      name: "HTML/CSS",
+    },
+    {
+      name: "PyTorch",
+    },
+    {
+      name: "Gradle",
+    },
+    {
+      name: "Redis",
+    },
   ],
   projectsPage: [
     {
