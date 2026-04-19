@@ -107,11 +107,11 @@ const configs: Configs = {
     },
     {
       name: "AWS",
-      iconFileName: "AWS.png",
+      iconFileName: "AWS.svg",
     },
     {
       name: "Kubernetes",
-      iconFileName: "Kubernetes.png",
+      iconFileName: "Kubernetes.svg",
     },
     {
       name: "Linux",
