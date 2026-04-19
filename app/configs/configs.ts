@@ -106,6 +106,18 @@ const configs: Configs = {
       iconFileName: "sql.png",
     },
     {
+      name: "AWS",
+      iconFileName: "sql.png",
+    },
+    {
+      name: "Kubernetes",
+      iconFileName: "sql.png",
+    },
+    {
+      name: "Linux",
+      iconFileName: "sql.png",
+    },
+    {
       name: "Spring Boot",
     },
     {
