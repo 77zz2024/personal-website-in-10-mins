@@ -49,8 +49,22 @@ const configs: Configs = {
       sectionName: "Work",
       items: [
         {
+          title: "Software Engineer, Splunk",
+          date: "Jun. 2025 – Present",
+          content: [
+            "Maintained highly scalable and distributed RESTful services (Spring Boot) for an enterprise database (Oracle/DB2) which is the single source of the company-wide business rules/parameters, serving 10k+ QPS",
+            "Leveraged CI/CD (Jenkins) for deployment on AWS; used OCP for pod management and Nexus/SonarQube for code analysis",
+            "Built a Frontend Website (React) for the services and created Datadog dashboards for continuous monitoring",
+            "Developed a ServiceNow automation tool to facilitate the data change process requested by users, cutting 80% of manual effort",
+            "Led the development and maintenance of three Python (Pandas, Numpy, OR-Tools) automation tools, cutting the finance department’s monthly planning time by 40% and reducing errors by 60%",
+            "Conducted automated Unit/End to End tests with the treasury team using Pytest and Mock, achieving 90% code coverage",
+            "Optimized the queries (SQL) behind to slash the query time by 50% and reduce customer complaints; consistently ranked 1st in dashboard views (5000+ monthly)",
+            "Collaborated in an Agile team using Jira; utilized GitHub/Git for version control and repositories management",
+            "Won the North Star Award once, and was nominated for the President’s Award each year among the whole company",],
+        },
+        {
           title: "Application Engineer, Discover Financial Services",
-          date: "Nov. 2021 – Present",
+          date: "Nov. 2021 – Jun. 2025",
           content: [
             "Maintained highly scalable and distributed RESTful services (Spring Boot) for an enterprise database (Oracle/DB2) which is the single source of the company-wide business rules/parameters, serving 10k+ QPS",
             "Leveraged CI/CD (Jenkins) for deployment on AWS; used OCP for pod management and Nexus/SonarQube for code analysis",
