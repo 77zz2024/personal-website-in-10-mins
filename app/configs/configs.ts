@@ -107,15 +107,15 @@ const configs: Configs = {
     },
     {
       name: "AWS",
-      iconFileName: "sql.png",
+      iconFileName: "AWS.png",
     },
     {
       name: "Kubernetes",
-      iconFileName: "sql.png",
+      iconFileName: "Kubernetes.png",
     },
     {
       name: "Linux",
-      iconFileName: "sql.png",
+      iconFileName: "linux.png",
     },
     {
       name: "Spring Boot",
@@ -131,6 +131,9 @@ const configs: Configs = {
     },
     {
       name: "RESTful API",
+    },
+    {
+      name: "Ansible",
     },
   ],
   projectsPage: [
